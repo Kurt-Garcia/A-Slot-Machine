@@ -1,0 +1,21 @@
+allocation logic
+
+current date	>=	sched date
+
+5-10 	10:10	>=	5-10	10:15	= F
+5-10	10:20	>=	5-10	10:15	= T
+5-10	11:00	>=	5-10	10:15	= T
+5-11	10:00	>=	5-10	10:15	= T
+
+1. customer input			- finished
+2. allocation ui			- working
+3. customer spin display		- finished
+4. customer spin button blocking	- finished
+5. prizes ui			- finished
+6. list of winner 			-
+7. allocation 2nd prize selection	- 
+8. next player button		- finished
+9. next player button should not click in spin	-  finished
+10. confirmation design button should be fade - finished
+
+

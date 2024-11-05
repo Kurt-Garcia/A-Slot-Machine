@@ -1,0 +1,272 @@
+
+
+CREATE TABLE `counter` (
+  `id` varchar(11) NOT NULL,
+  `no` varchar(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO counter VALUES("1","1");
+INSERT INTO counter VALUES("2","2");
+INSERT INTO counter VALUES("3","3");
+INSERT INTO counter VALUES("4","4");
+INSERT INTO counter VALUES("5","5");
+INSERT INTO counter VALUES("6","6");
+INSERT INTO counter VALUES("7","7");
+INSERT INTO counter VALUES("8","8");
+INSERT INTO counter VALUES("9","9");
+INSERT INTO counter VALUES("10","10");
+INSERT INTO counter VALUES("11","11");
+INSERT INTO counter VALUES("12","12");
+INSERT INTO counter VALUES("13","13");
+INSERT INTO counter VALUES("14","14");
+INSERT INTO counter VALUES("15","15");
+INSERT INTO counter VALUES("16","16");
+INSERT INTO counter VALUES("17","17");
+INSERT INTO counter VALUES("18","18");
+INSERT INTO counter VALUES("19","19");
+INSERT INTO counter VALUES("20","20");
+INSERT INTO counter VALUES("21","21");
+INSERT INTO counter VALUES("22","22");
+INSERT INTO counter VALUES("23","23");
+INSERT INTO counter VALUES("24","24");
+INSERT INTO counter VALUES("25","25");
+INSERT INTO counter VALUES("26","26");
+INSERT INTO counter VALUES("27","27");
+INSERT INTO counter VALUES("28","28");
+INSERT INTO counter VALUES("29","29");
+INSERT INTO counter VALUES("30","30");
+INSERT INTO counter VALUES("31","31");
+INSERT INTO counter VALUES("32","32");
+INSERT INTO counter VALUES("33","33");
+INSERT INTO counter VALUES("34","34");
+INSERT INTO counter VALUES("35","35");
+INSERT INTO counter VALUES("36","36");
+INSERT INTO counter VALUES("37","37");
+INSERT INTO counter VALUES("38","38");
+INSERT INTO counter VALUES("39","39");
+INSERT INTO counter VALUES("40","40");
+INSERT INTO counter VALUES("41","41");
+INSERT INTO counter VALUES("42","42");
+INSERT INTO counter VALUES("43","43");
+INSERT INTO counter VALUES("44","44");
+INSERT INTO counter VALUES("45","45");
+INSERT INTO counter VALUES("46","46");
+INSERT INTO counter VALUES("47","47");
+INSERT INTO counter VALUES("48","48");
+INSERT INTO counter VALUES("49","49");
+INSERT INTO counter VALUES("50","50");
+INSERT INTO counter VALUES("51","51");
+INSERT INTO counter VALUES("52","52");
+INSERT INTO counter VALUES("53","53");
+INSERT INTO counter VALUES("54","54");
+INSERT INTO counter VALUES("55","55");
+INSERT INTO counter VALUES("56","56");
+INSERT INTO counter VALUES("57","57");
+INSERT INTO counter VALUES("58","58");
+INSERT INTO counter VALUES("59","59");
+INSERT INTO counter VALUES("60","60");
+INSERT INTO counter VALUES("61","61");
+INSERT INTO counter VALUES("62","62");
+INSERT INTO counter VALUES("63","63");
+INSERT INTO counter VALUES("64","64");
+INSERT INTO counter VALUES("65","65");
+INSERT INTO counter VALUES("66","66");
+INSERT INTO counter VALUES("67","67");
+INSERT INTO counter VALUES("68","68");
+INSERT INTO counter VALUES("69","69");
+INSERT INTO counter VALUES("70","70");
+INSERT INTO counter VALUES("71","71");
+INSERT INTO counter VALUES("72","72");
+INSERT INTO counter VALUES("73","73");
+INSERT INTO counter VALUES("74","74");
+INSERT INTO counter VALUES("75","75");
+INSERT INTO counter VALUES("76","76");
+INSERT INTO counter VALUES("77","77");
+INSERT INTO counter VALUES("78","78");
+INSERT INTO counter VALUES("79","79");
+INSERT INTO counter VALUES("80","80");
+INSERT INTO counter VALUES("81","81");
+INSERT INTO counter VALUES("82","82");
+INSERT INTO counter VALUES("83","83");
+INSERT INTO counter VALUES("84","84");
+INSERT INTO counter VALUES("85","85");
+INSERT INTO counter VALUES("86","86");
+INSERT INTO counter VALUES("87","87");
+INSERT INTO counter VALUES("88","88");
+INSERT INTO counter VALUES("89","89");
+INSERT INTO counter VALUES("90","90");
+INSERT INTO counter VALUES("91","91");
+INSERT INTO counter VALUES("92","92");
+INSERT INTO counter VALUES("93","93");
+INSERT INTO counter VALUES("94","94");
+INSERT INTO counter VALUES("95","95");
+INSERT INTO counter VALUES("96","96");
+INSERT INTO counter VALUES("97","97");
+INSERT INTO counter VALUES("98","98");
+INSERT INTO counter VALUES("99","99");
+INSERT INTO counter VALUES("100","100");
+INSERT INTO counter VALUES("101","101");
+INSERT INTO counter VALUES("102","102");
+INSERT INTO counter VALUES("103","103");
+INSERT INTO counter VALUES("104","104");
+INSERT INTO counter VALUES("105","105");
+INSERT INTO counter VALUES("106","106");
+INSERT INTO counter VALUES("107","107");
+INSERT INTO counter VALUES("108","108");
+INSERT INTO counter VALUES("109","109");
+INSERT INTO counter VALUES("110","110");
+INSERT INTO counter VALUES("111","111");
+INSERT INTO counter VALUES("112","112");
+INSERT INTO counter VALUES("113","113");
+INSERT INTO counter VALUES("114","114");
+INSERT INTO counter VALUES("115","115");
+INSERT INTO counter VALUES("116","116");
+INSERT INTO counter VALUES("117","117");
+INSERT INTO counter VALUES("118","118");
+INSERT INTO counter VALUES("119","119");
+INSERT INTO counter VALUES("120","120");
+INSERT INTO counter VALUES("121","121");
+INSERT INTO counter VALUES("122","122");
+INSERT INTO counter VALUES("123","123");
+INSERT INTO counter VALUES("124","124");
+INSERT INTO counter VALUES("125","125");
+INSERT INTO counter VALUES("126","126");
+INSERT INTO counter VALUES("127","127");
+INSERT INTO counter VALUES("128","128");
+INSERT INTO counter VALUES("129","129");
+INSERT INTO counter VALUES("130","130");
+INSERT INTO counter VALUES("131","131");
+INSERT INTO counter VALUES("132","132");
+INSERT INTO counter VALUES("133","133");
+INSERT INTO counter VALUES("134","134");
+INSERT INTO counter VALUES("135","135");
+INSERT INTO counter VALUES("136","136");
+INSERT INTO counter VALUES("137","137");
+INSERT INTO counter VALUES("138","138");
+INSERT INTO counter VALUES("139","139");
+INSERT INTO counter VALUES("140","140");
+INSERT INTO counter VALUES("141","141");
+INSERT INTO counter VALUES("142","142");
+INSERT INTO counter VALUES("143","143");
+INSERT INTO counter VALUES("144","144");
+INSERT INTO counter VALUES("145","145");
+INSERT INTO counter VALUES("146","146");
+INSERT INTO counter VALUES("147","147");
+INSERT INTO counter VALUES("148","148");
+INSERT INTO counter VALUES("149","149");
+INSERT INTO counter VALUES("150","150");
+INSERT INTO counter VALUES("151","151");
+INSERT INTO counter VALUES("152","152");
+INSERT INTO counter VALUES("153","153");
+INSERT INTO counter VALUES("154","154");
+INSERT INTO counter VALUES("155","155");
+INSERT INTO counter VALUES("156","156");
+INSERT INTO counter VALUES("157","157");
+INSERT INTO counter VALUES("158","158");
+INSERT INTO counter VALUES("159","159");
+INSERT INTO counter VALUES("160","160");
+INSERT INTO counter VALUES("161","161");
+INSERT INTO counter VALUES("162","162");
+INSERT INTO counter VALUES("163","163");
+INSERT INTO counter VALUES("164","164");
+INSERT INTO counter VALUES("165","165");
+INSERT INTO counter VALUES("166","166");
+INSERT INTO counter VALUES("167","167");
+INSERT INTO counter VALUES("168","168");
+INSERT INTO counter VALUES("169","169");
+INSERT INTO counter VALUES("170","170");
+INSERT INTO counter VALUES("171","171");
+INSERT INTO counter VALUES("172","172");
+INSERT INTO counter VALUES("173","173");
+INSERT INTO counter VALUES("174","174");
+INSERT INTO counter VALUES("175","175");
+INSERT INTO counter VALUES("176","176");
+INSERT INTO counter VALUES("177","177");
+INSERT INTO counter VALUES("178","178");
+INSERT INTO counter VALUES("179","179");
+INSERT INTO counter VALUES("180","180");
+INSERT INTO counter VALUES("181","181");
+INSERT INTO counter VALUES("182","182");
+INSERT INTO counter VALUES("183","183");
+INSERT INTO counter VALUES("184","184");
+INSERT INTO counter VALUES("185","185");
+INSERT INTO counter VALUES("186","186");
+INSERT INTO counter VALUES("187","187");
+INSERT INTO counter VALUES("188","188");
+INSERT INTO counter VALUES("189","189");
+INSERT INTO counter VALUES("190","190");
+INSERT INTO counter VALUES("191","191");
+INSERT INTO counter VALUES("192","192");
+INSERT INTO counter VALUES("193","193");
+INSERT INTO counter VALUES("194","194");
+INSERT INTO counter VALUES("195","195");
+INSERT INTO counter VALUES("196","196");
+INSERT INTO counter VALUES("197","197");
+INSERT INTO counter VALUES("198","198");
+INSERT INTO counter VALUES("199","199");
+INSERT INTO counter VALUES("200","200");
+
+
+
+CREATE TABLE `customer` (
+  `id` int(25) NOT NULL,
+  `idticket` varchar(50) NOT NULL,
+  `ticket` int(25) NOT NULL,
+  `brticket` varchar(50) NOT NULL,
+  `status` varchar(10) NOT NULL,
+  `name` varchar(25) NOT NULL,
+  `address` varchar(100) NOT NULL,
+  `date` varchar(50) NOT NULL,
+  `cell` varchar(11) NOT NULL,
+  `winno` int(11) NOT NULL,
+  `orno` varchar(50) NOT NULL,
+  `amount` varchar(50) NOT NULL,
+  `ctr1` varchar(11) NOT NULL,
+  `orno2` varchar(50) NOT NULL,
+  `amount2` varchar(50) NOT NULL,
+  `ctr2` varchar(11) NOT NULL,
+  `orno3` varchar(50) NOT NULL,
+  `amount3` varchar(50) NOT NULL,
+  `ctr3` varchar(11) NOT NULL,
+  `orno4` varchar(50) NOT NULL,
+  `amount4` varchar(50) NOT NULL,
+  `ctr4` varchar(11) NOT NULL,
+  `orno5` varchar(50) NOT NULL,
+  `amount5` varchar(50) NOT NULL,
+  `ctr5` varchar(11) NOT NULL,
+  `valno` varchar(50) NOT NULL,
+  UNIQUE KEY `brticket` (`brticket`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO customer VALUES("0","0","0","","2","","","","","0","","","","","","","","","","","","","","","","");
+INSERT INTO customer VALUES("1"," 0021","1"," STH1","2","test","test"," 1/18/2023 11:08:03 am","6516132","0","234234","3333","1","","","","","","","","","","","","","");
+
+
+
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(50) NOT NULL,
+  `password` varchar(50) NOT NULL,
+  `user_role` varchar(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+
+INSERT INTO user VALUES("1","sth1","gcapsth1","1");
+INSERT INTO user VALUES("2","sth2","gcapsth2","2");
+INSERT INTO user VALUES("3","sth3","infosth3","3");
+
+
+
+CREATE TABLE `winners` (
+  `id` int(25) NOT NULL AUTO_INCREMENT,
+  `brticket` varchar(50) NOT NULL,
+  `name` varchar(25) NOT NULL,
+  `address` varchar(100) NOT NULL,
+  `cell` varchar(11) NOT NULL,
+  `date` varchar(50) NOT NULL,
+  `idticket` varchar(50) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+INSERT INTO winners VALUES("1"," STH1","TEST","test","6516132"," 1/18/2023 11:08:03 am"," 0021");
+

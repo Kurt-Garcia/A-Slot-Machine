@@ -1,0 +1,410 @@
+        
+        @import url('https://fonts.googleapis.com/css?family=Roboto');
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+        a{
+          color: #283593;
+          text-decoration: none;
+        }
+        h3{
+          margin-top: 12px;
+        }
+        *{
+          margin:0px;
+        }
+        body{
+          background-color: #424242;
+          font-family: 'Roboto', sans-serif;
+        }
+        main{
+          border-radius: 15px;
+          background-color: #f70d0d;
+          margin-top: 140px;
+          padding-top: 25px;
+          padding-bottom: 0px;
+          padding-left: 30px;
+          padding-right: 30px;
+          margin-left: calc((100% - 610px) / 2);
+          width: 610px;
+          
+        }
+
+
+        
+        /* **************************** */
+        /*       start all container    */
+        /* **************************** */
+        .container{
+          height: 145px;
+        }
+
+        /* **************************** */
+        /*        end all container     */
+        /* **************************** */
+
+
+        /* **************************** */
+        /*         start  prize         */
+        /* **************************** */
+
+        .blink {
+          display: none;
+        }
+
+        .prizes {
+          font-size: 50px; 
+          color: #FFFAF0;
+          margin-top: -75px;
+          margin-bottom: -140px;
+          height: -20px;
+          text-align: center;
+        }
+
+        /* **************************** */
+        /*          end prize           */
+        /* **************************** */
+        
+
+        /* **************************** */
+        /*    start  jackpot prize      */
+        /* **************************** */
+
+        .blinkjackpot {
+          display: none;
+        }
+        /* .jackpots {
+          font-size: 50px; 
+          color: #FFFAF0;
+          margin-top: -50px;
+          margin-bottom: -110px;
+          height: -20px;
+          text-align: center;
+        } */
+
+        /* **************************** */
+        /*     end jackpot prize        */
+        /* **************************** */
+
+        section#status{
+          margin-bottom: 25px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          border-radius: 5px;
+          background-color: #3b3a3a;
+          color: #fdf901;
+          font-size: 40px;
+          font-family: 'Roboto Mono', monospace;
+          font-weight:bold;
+          text-align: center;
+          text-shadow:
+              2px 2px 0 #000,
+              -2px 2px 0 #000,
+              -2px -2px 0 #000,
+              2px -2px 0 #000;
+          
+        }
+
+        .running {
+          margin-bottom: -25px;
+          padding-bottom: 10px;
+          color: #fdf901;
+          font-size: 40px;
+          font-family: 'Roboto Mono', monospace;
+          font-weight:bold;
+          text-align: center;
+          text-shadow:
+              2px 2px 0 #000,
+              -2px 2px 0 #000,
+              -2px -2px 0 #000,
+              2px -2px 0 #000;
+          
+         
+  
+
+        }
+
+        section#Slots{
+          border-radius: 10px;
+          background-color: #FFFFFF;
+          
+        }
+        section#Gira{
+          margin-top: 25px;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          border-radius: 5px;
+          text-align: center;
+          background-color: #c40e0e;
+          color: #FFFFFF;
+          font-size: 30px;
+          font-weight:bold;
+          
+          /* text-shadow:
+          2px 2px 0 #000,
+          -2px 2px 0 #000,
+          -2px -2px 0 #000,
+          2px -2px 0 #000; */
+        }
+
+        section#Gira:hover{
+          background-color: #fc2c1d;
+        }
+        /* section#options{
+          margin-top: 20px;
+          padding-top: 5px;
+          border-radius: 5px;
+          background-color: #C62828;
+          color: #FFFFFF;
+        } */
+        .option{
+          padding-left: 5px;
+        }
+        section#info{
+          background-color: #616161;
+          padding-left: 12px;
+          padding-bottom: 12px;
+          border-radius: 5px;
+          overflow: hidden;
+          animation-duration: 1s;
+          color: #BDBDBD;
+          margin-top: 50px;
+          margin-left: 30%;
+          margin-right: 30%;
+          display: none;
+        }
+        #slot1{
+          display: inline-block;
+          margin-top: 2px;
+          margin-bottom: -3px;
+          margin-left: 8px;
+          margin-right: 12px;
+          background-size: 150px;
+          width: 150px;
+          height: 150px;
+          
+        }
+
+        #slot2 {
+          display: inline-block;
+          margin-top: 2px;
+          margin-bottom: -3px;
+          margin-left: 18px;
+          margin-right: 11px;
+          background-size: 150px;
+          width: 150px;
+          height: 150px;
+          
+        }
+
+        #slot3{
+          display: inline-block;
+          margin-top: 2px;
+          margin-bottom: -3px;
+          margin-left: 22px;
+          margin-right: 3px;
+          background-size: 150px;
+          width: 150px;
+          height: 150px;
+          
+        }
+
+
+
+        .a1{
+          background-image: url("../res/tiles/ariel.jpg");
+        }
+        .a2{
+          background-image: url("../res/tiles/casino.jpg");
+        }
+        .a3{
+          background-image: url("../res/tiles/closeup.jpg");
+        }
+        .a4{
+          background-image: url("../res/tiles/colgate.jpg");
+        }
+        .a5{
+          background-image: url("../res/tiles/palmolive.jpg");
+        }
+        .a6{
+          background-image: url("../res/tiles/sunsilk.jpg");
+        }
+        .a7{
+          background-image: url("../res/tiles/gcap.jpg");
+        }
+        .a8{
+          background-image: url("../res/tiles/summer.jpg");
+        }
+        .a9{
+          background-image: url("../res/tiles/kopiko.jpg");
+        }
+        .a10{
+          background-image: url("../res/tiles/milo.jpg");
+        }
+        /* .a11{
+          background-image: url("../res/tiles/modess.jpg");
+        }
+        .a12{
+          background-image: url("../res/tiles/nescafe.jpg");
+        }
+        .a13{
+          background-image: url("../res/tiles/rejoice.jpg");
+        }
+        .a14{
+          background-image: url("../res/tiles/star.jpg");
+        }
+        .a15{
+          background-image: url("../res/tiles/whisper.jpg");
+        }
+        .a16{
+          background-image: url("../res/tiles/bearbrand.jpg");
+        }
+        .a17{
+          background-image: url("../res/tiles/surf.jpg");
+        } */
+
+
+
+        section#lights{
+            float: left;
+            margin-top: -143px;
+        }
+
+        section#lights2{
+            float: right;
+            margin-top: -143px;
+        }
+
+        section#rectangles{
+            float: right;
+            margin-top: -8px;
+        }
+
+        section#rectangles2{
+            float: right;
+            margin-top: -8px;
+        }
+  
+        
+
+        .light { 
+            width: 20px; 
+            height: 20px; 
+            border-radius: 50%; 
+            margin: 15px; 
+            transition: background-color 5s; 
+            margin-left: calc((100% - 60px) / 2);
+        } 
+
+        .light2 { 
+            width: 20px; 
+            height: 20px; 
+            border-radius: 50%; 
+            margin: 15px; 
+            transition: background-color 5s; 
+            margin-right: calc((100% - 50px) / 2);
+        } 
+        
+             
+        .rectangle {
+            height: 180px;
+            width: 10px;
+            background-color: #f70d0d;
+            margin-left: calc((100% - 360px) / 2);
+        }
+
+        .rectangle2 {
+            height: 180px;
+            width: 10px;
+            background-color: #f70d0d;
+            margin-left: calc((100% - 730px) / 2);
+        }
+
+        section#lightsdown{
+            float: right;
+            margin-top: -3px;
+            transform: rotate(-0.25turn);
+            margin-right: -45px;
+        } 
+
+        .lightdown { 
+            width: 20px; 
+            height: 20px; 
+            border-radius: 50%; 
+            margin: calc((100% - 30px) * 2);; 
+            transition: background-color 5s; 
+            margin-left: calc((100% - 50px) / 2);
+        }
+  
+        section#lightsup{
+            float: right;
+            margin-top: -133px;
+            transform: rotate(-0.25turn);
+            margin-right: -45px;
+        } 
+
+        .lightup { 
+            width: 20px; 
+            height: 20px; 
+            border-radius: 50%; 
+            margin: calc((100% - 30px) * 2);; 
+            transition: background-color 5s; 
+            margin-left: calc((100% - 50px) / 2);
+        }
+        @keyframes blinkRed { 
+  
+            0%, 
+            49% { 
+                background-color: #fdf901; 
+            } 
+  
+            50%, 
+            100% { 
+                background-color: #8c8d56; 
+            } 
+        } 
+  
+        @keyframes blinkYellow { 
+  
+            0%, 
+            49% { 
+                background-color: #8c8d56; 
+            } 
+  
+            50%, 
+            100% { 
+                background-color: #fdf901; 
+            } 
+        } 
+  
+         
+        .red { 
+            background-color: #fdf901; 
+            animation: blinkRed 3s infinite; 
+            animation-delay: 3s; 
+        } 
+  
+        .yellow { 
+            background-color: #8c8d56; 
+            animation: blinkYellow 3s infinite; 
+            animation-delay: 3s; 
+        } 
+
+
+        /* ********************************** */
+        /*    start  disable spin button      */
+        /* ********************************** */
+
+        .spin.disabled {
+          /* Define styles for disabled button */
+          pointer-events: none; /* Disable pointer events to prevent clicks */
+          opacity: 0.5; /* Optionally reduce opacity to visually indicate disabled state */
+          /* Add any other styles you want for the disabled state */
+          
+        }
+        
+        /* ********************************** */
+        /*    end  disable spin button        */
+        /* ********************************** */
+
+
+
+       

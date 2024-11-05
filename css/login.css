@@ -1,0 +1,23 @@
+*{
+	color: #FFF;
+}
+.bg{
+	background: url(../image/loginwall2.jpg) no-repeat;
+	min-height: 950px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+
+}
+.form-container{
+	border: 1px solid rgb(194, 11, 11, 0.8);
+	padding: 60px 60px;
+	margin-top: 15vh;
+	-webkit-box-shadow: 4px 40px 26px 11px rgba(4,20,2,0.75);
+	-moz-box-shadow: 5px 60px 26px 11px rgba(2,0,0,0.75);
+	box-shadow: 1px 1px 46px 21px rgba(2,0,0,0.75);
+	background-color: rgb(194, 11, 11, 0.8);
+	border-radius: 10px;
+}
